@@ -5,11 +5,8 @@ const { generateAccessToken, generateRefreshToken } = require('../utils/generate
 const sendEmail = require('../services/email.service');
 const crypto = require('crypto');
 const logger = require('../utils/logger');
-const redisKeys = require('../utils/redisKeys')
-const client = require('../config/redis')
 
-// @desc    Register user
-// @route   POST /api/auth/register
+// ================= REGISTER =================
 exports.register = async (req, res) => {
   const { name, email, password } = req.body;
 
@@ -22,19 +19,16 @@ exports.register = async (req, res) => {
     user = new User({ name, email, password });
     await user.save();
 
-    // Generate verification token
     const verifyToken = crypto.randomBytes(32).toString('hex');
     user.resetPasswordToken = verifyToken;
-    user.resetPasswordExpires = Date.now() + 3600000; // 1 hour
+    user.resetPasswordExpires = Date.now() + 3600000;
     await user.save();
-
-    console.log('verify', verifyToken)
 
     const verificationUrl = `${process.env.BASE_URL}/api/auth/verify-email/${verifyToken}`;
     await sendEmail({
       to: user.email,
       subject: 'Verify Your Email',
-      html: `<p>Please verify your email by clicking:</p><a href="${verificationUrl}">Verify Email</a>`,
+      html: `<p>Please verify your email:</p><a href="${verificationUrl}">Verify Email</a>`,
     });
 
     res.status(201).json({
@@ -47,8 +41,7 @@ exports.register = async (req, res) => {
   }
 };
 
-// @desc    Verify email
-// @route   GET /api/auth/verify-email/:token
+// ================= VERIFY EMAIL =================
 exports.verifyEmail = async (req, res) => {
   try {
     const user = await User.findOne({
@@ -65,21 +58,20 @@ exports.verifyEmail = async (req, res) => {
     user.resetPasswordExpires = undefined;
     await user.save();
 
-    res.status(200).json({ success: true, message: 'Email verified successfully!' });
+    res.json({ success: true, message: 'Email verified successfully!' });
   } catch (err) {
-    logger.error('Email verification error:', err.message);
+    logger.error('Verify email error:', err.message);
     res.status(500).json({ success: false, message: 'Server error' });
   }
 };
 
-// @desc    Login user
-// @route   POST /api/auth/login
+// ================= LOGIN =================
 exports.login = async (req, res) => {
   const { email, password } = req.body;
 
   try {
     const user = await User.findOne({ email });
-    if (!user) {
+    if (!user || !(await user.matchPassword(password))) {
       return res.status(400).json({ success: false, message: 'Invalid credentials' });
     }
 
@@ -87,15 +79,9 @@ exports.login = async (req, res) => {
       return res.status(401).json({ success: false, message: 'Please verify your email first' });
     }
 
-    const isMatch = await user.matchPassword(password);
-    if (!isMatch) {
-      return res.status(400).json({ success: false, message: 'Invalid credentials' });
-    }
-
     const accessToken = generateAccessToken(user);
     const refreshToken = generateRefreshToken(user);
 
-    // Store refresh token in DB
     await Token.create({
       userId: user._id,
       token: refreshToken,
@@ -119,36 +105,34 @@ exports.login = async (req, res) => {
   }
 };
 
-// @desc    Forgot Password
-// @route   POST /api/auth/forgot-password
+// ================= FORGOT PASSWORD =================
 exports.forgotPassword = async (req, res) => {
   try {
     const user = await User.findOne({ email: req.body.email });
     if (!user) {
-      return res.status(200).json({ success: true, message: 'If email exists, a reset link was sent.' });
+      return res.json({ success: true, message: 'If email exists, a reset link was sent.' });
     }
 
     const token = crypto.randomBytes(32).toString('hex');
     user.resetPasswordToken = token;
-    user.resetPasswordExpires = Date.now() + 3600000; // 1 hour
+    user.resetPasswordExpires = Date.now() + 3600000;
     await user.save();
 
     const resetUrl = `${process.env.BASE_URL}/api/auth/reset-password/${token}`;
     await sendEmail({
       to: user.email,
       subject: 'Password Reset',
-      html: `<p>Reset your password:</p><a href="${resetUrl}">Reset Password</a>`,
+      html: `<p>Reset password:</p><a href="${resetUrl}">Reset Password</a>`,
     });
 
-    res.json({ success: true, message: 'Password reset link sent to email.' });
+    res.json({ success: true, message: 'Password reset link sent.' });
   } catch (err) {
     logger.error('Forgot password error:', err.message);
     res.status(500).json({ success: false, message: 'Server error' });
   }
 };
 
-// @desc    Reset Password
-// @route   POST /api/auth/reset-password/:token
+// ================= RESET PASSWORD =================
 exports.resetPassword = async (req, res) => {
   try {
     const user = await User.findOne({
@@ -172,17 +156,16 @@ exports.resetPassword = async (req, res) => {
   }
 };
 
-// @desc    Refresh Access Token
-// @route   POST /api/auth/refresh
+// ================= REFRESH TOKEN =================
 exports.refreshToken = async (req, res) => {
   const { refreshToken } = req.body;
-
   if (!refreshToken) {
     return res.status(401).json({ success: false, message: 'Refresh token required' });
   }
 
   try {
     const decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
+
     const tokenRecord = await Token.findOne({
       token: refreshToken,
       userId: decoded.userId,
@@ -195,63 +178,37 @@ exports.refreshToken = async (req, res) => {
     }
 
     const user = await User.findById(decoded.userId);
-    if (!user) {
-      return res.status(401).json({ success: false, message: 'User not found' });
-    }
-
     const newAccessToken = generateAccessToken(user);
+
     res.json({ success: true, accessToken: newAccessToken });
-  } catch (err) {
+  } catch {
     res.status(403).json({ success: false, message: 'Invalid refresh token' });
   }
 };
 
-
-
-// @desc    Logout (blacklist access token)
-// @route   POST /api/auth/logout
-// @access  Private
+// ================= LOGOUT (NO REDIS) =================
 exports.logout = async (req, res) => {
   try {
-    // 1. Get access token from Authorization header
-    const authHeader = req.headers.authorization;
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
-      return res.status(401).json({
+    const { refreshToken } = req.body;
+
+    if (!refreshToken) {
+      return res.status(400).json({
         success: false,
-        message: 'Access token required',
+        message: 'Refresh token required',
       });
     }
 
-    const token = authHeader.split(' ')[1];
+    await Token.findOneAndUpdate(
+      { token: refreshToken },
+      { blacklisted: true }
+    );
 
-    // 2. Decode token to get expiry time (don't verify again)
-    const decoded = jwt.decode(token);
-    if (!decoded) {
-      return res.status(401).json({
-        success: false,
-        message: 'Invalid token',
-      });
-    }
-
-    const exp = decoded.exp;
-    const now = Math.floor(Date.now() / 1000);
-    const ttl = exp - now;
-
-    // 3. Only blacklist if token hasn't expired yet
-    if (ttl > 0) {
-      await client.setEx(redisKeys.blacklistToken(token), ttl, '1');
-    }
-
-    // 4. Respond
-    return res.status(200).json({
+    res.json({
       success: true,
       message: 'Logged out successfully',
     });
   } catch (err) {
-    console.error('Logout error:', err);
-    return res.status(500).json({
-      success: false,
-      message: 'Server error during logout',
-    });
+    logger.error('Logout error:', err.message);
+    res.status(500).json({ success: false, message: 'Server error' });
   }
 };

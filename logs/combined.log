@@ -1,209 +1,33 @@
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:15:13.453Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:16:29.246Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:21:08.135Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:21:18.021Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:21:44.419Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:21:46.896Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:21:53.850Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:23:47.203Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:24:22.032Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:24:51.497Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:24:57.902Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:25:03.054Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:25:16.014Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:26:26.212Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:26:45.824Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-21T14:26:56.000Z"}
-{"level":"info","message":"📧 Email sent to test@example.com: Verify Your Email","timestamp":"2025-08-21T14:27:00.843Z"}
-{"level":"info","message":"📧 Email sent to john@example.com: Verify Your Email","timestamp":"2025-08-23T12:43:20.827Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T12:47:39.616Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T12:59:13.603Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T12:59:19.170Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T12:59:23.422Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T12:59:28.228Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:01:39.601Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:02:23.320Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:07:24.439Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:10:53.303Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:12:57.986Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:12:59.939Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:13:13.327Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T13:13:17.985Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:50:07.617Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:50:12.164Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:50:16.964Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:50:21.555Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:50:29.818Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:08.324Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:14.782Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:16.719Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:20.275Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:25.061Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:28.836Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:32.067Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:34.000Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:37.703Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:52.818Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:51:59.783Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:52:02.791Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:52:07.226Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:52:12.903Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:53:20.229Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:53:22.817Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:53:27.466Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:53:51.316Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:53:53.902Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:53:56.971Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:00.519Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:07.669Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:10.267Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:12.836Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:17.254Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:20.700Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:27.482Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:48.444Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:50.617Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:53.820Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:54:57.809Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:02.258Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:06.888Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:11.029Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:34.934Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:40.285Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:43.808Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:46.361Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:55:53.589Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:56:01.005Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:56:09.112Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:56:12.735Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:56:15.076Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T19:56:19.475Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:01:19.019Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:01:32.143Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:01:44.143Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:02:32.427Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:02:52.677Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:01.880Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:11.232Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:17.077Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:19.108Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:22.162Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:30.070Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:33.048Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:42.684Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:51.772Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:54.523Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:03:57.994Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:04:03.529Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:04:11.907Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:04:24.320Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:04:28.560Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:04:40.942Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:04:44.144Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:05.754Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:16.623Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:34.729Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:38.286Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:40.330Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:46.075Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:05:55.002Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:06:01.093Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:06:06.773Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:06:08.911Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:06:16.700Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:06:29.378Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:06:34.348Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:10:04.237Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:10:53.089Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:11:49.243Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:11:54.324Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:12:19.174Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:16:06.775Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:16:13.455Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:18:24.134Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:18:33.482Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:21:36.881Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:21:43.028Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:21:43.040Z"}
-{"level":"info","message":"📧 Email sent to john123@example.com: Verify Your Email","timestamp":"2025-08-23T20:25:15.577Z"}
-{"level":"info","message":"📧 Email sent to xetiho6053@iotrama.com: Verify Your Email","timestamp":"2025-08-23T20:25:54.799Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:27:32.286Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:27:32.301Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:27:36.690Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:27:36.705Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:27:44.108Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:27:44.119Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:27:47.522Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:27:47.537Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:27:51.118Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:27:51.130Z"}
-{"level":"info","message":"📧 Email sent to sagirig487@evoxury.com: Verify Your Email","timestamp":"2025-08-23T20:28:49.080Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T20:33:54.796Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T20:36:23.741Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T20:39:09.958Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T20:39:21.084Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:40:49.684Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:40:53.427Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:40:53.440Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T20:41:00.010Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T20:41:00.047Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T20:41:08.708Z"}
-{"level":"info","message":"📧 Email sent to jitige1002@evoxury.com: Verify Your Email","timestamp":"2025-08-23T20:42:16.846Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T20:47:15.103Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:01:30.841Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:01:30.859Z"}
-{"level":"info","message":"📧 Email sent to sipop45472@iotrama.com: Verify Your Email","timestamp":"2025-08-23T23:05:31.774Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:07:02.773Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:10:48.229Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:10:48.241Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:11:42.310Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:11:42.323Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:11:52.993Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:11:53.006Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:12:00.727Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:12:00.752Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:13:11.357Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:13:11.372Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:13:20.338Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:13:20.352Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:13:44.574Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:13:44.585Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:13:47.744Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:13:47.757Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:13:57.383Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:13:57.400Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:14:48.747Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:14:48.763Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:05.800Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:11.885Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.095Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.140Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.284Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.422Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.532Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.670Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.792Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:12.913Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:15:13.131Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:16:56.857Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:23:45.290Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:23:45.311Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:23:49.255Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:23:49.268Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:23:58.312Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:23:58.318Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:28:35.596Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:31:54.516Z"}
-{"level":"warn","message":"🔐 No token provided","timestamp":"2025-08-23T23:32:02.762Z"}
-{"level":"error","message":"Token verification failed:","timestamp":"2025-08-23T23:33:09.262Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:42:16.296Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:42:16.302Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:42:19.763Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:42:19.775Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:42:26.698Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:42:26.706Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:52:57.640Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:52:57.652Z"}
-{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2025-08-23T23:52:59.437Z"}
-{"level":"info","message":"✅ Redis connected","timestamp":"2025-08-23T23:52:59.443Z"}
-{"level":"info","message":"📧 Email sent to sipop45472@iotrama.com: Password Reset","timestamp":"2025-08-24T00:01:19.841Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T04:54:11.330Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:03:50.714Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:03:55.358Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:04:25.849Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:04:42.193Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:04:52.700Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:05:14.390Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:06:01.116Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:06:03.826Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:06:06.418Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:13:38.319Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:14:50.951Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:14:54.731Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:14:57.230Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:14:59.470Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:15:48.382Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:17:17.269Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:18:22.840Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:19:40.248Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:19:54.508Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:20:17.056Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:20:20.244Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:21:57.021Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:21:58.560Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:22:02.126Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T05:22:08.439Z"}
+{"level":"info","message":"📧 Email sent to johndoe@example.com: Verify Your Email","timestamp":"2026-01-14T05:24:36.958Z"}
+{"level":"info","message":"📧 Email sent to figetey941@jparksky.com: Verify Your Email","timestamp":"2026-01-14T08:55:52.374Z"}
+{"level":"info","message":"📧 Email sent to figetey941@jparksky.com: Password Reset","timestamp":"2026-01-14T09:02:26.146Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T09:06:37.508Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T09:06:44.360Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T09:06:48.741Z"}
+{"level":"info","message":"🚀 Server running on port 3000","timestamp":"2026-01-14T09:09:52.052Z"}
